@@ -23,7 +23,4 @@ func main(){
          fmt.Println("please confirm parameter, it does not match")
         }
     }
-
-
-
 }
