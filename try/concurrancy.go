@@ -33,6 +33,7 @@ func Concurrancy(){
 
         default:
 
+            //this is default case
             go even_odd(i, num_type)
             num_type <- "odd number"
             break;
@@ -41,7 +42,6 @@ func Concurrancy(){
     }
 }
 
-// num_type chan string ,
 
 func even_odd(i int, num_type chan string ){
 
