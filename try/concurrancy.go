@@ -5,8 +5,9 @@ import (
     "time"
 )
 
+//sample 
 func Concurrancy(){
-
+    
     var mylist []int
 
     for i:= 0; i< 30; i++ {
